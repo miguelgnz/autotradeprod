@@ -30,7 +30,7 @@ export const Services = () => {
                             <i className="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 className="my-3">Promoción</h4>
-                        <p className="text-muted">Promocionamos tu vehículo en venta previo a revisión.</p>
+                        <p className="text-muted">Promocionamos tu vehículo en venta, previo AVALUO.</p>
                     </div>
                     <div className="col-md-3">
                         <span className="fa-stack fa-4x">
@@ -38,7 +38,7 @@ export const Services = () => {
                             <i className="fas fa-university fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 className="my-3">Financiamiento</h4>
-                        <p className="text-muted">Financiamiento bancario disponible previo a evaluación.</p>
+                        <p className="text-muted">Financiamiento Bancario Disponible.</p>
                     </div>
                 </div>
             </div>
