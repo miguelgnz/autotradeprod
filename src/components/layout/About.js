@@ -18,7 +18,7 @@ export const About = () => {
                             <div className="timeline-heading">
                                 <h4 className="subheading">¿Quiénes somos?</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Somos un predio virtual con más de 15 años de experiencia en el mercado, poniendo a disposición de nuestros clientes vehículos 100% confiables a precios competitivos. Ofrecemos FINANCIAMIENTO BANCARIO, CONSIGNACIÓN o PAGO DE CONTADO..</p></div>
+                            <div className="timeline-body"><p className="text-muted">Somos un predio virtual con más de 15 años de experiencia en el mercado, poniendo a disposición de nuestros clientes vehículos 100% confiables a precios competitivos. Ofrecemos FINANCIAMIENTO BANCARIO, CONSIGNACIÓN o PAGO DE CONTADO.</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">
