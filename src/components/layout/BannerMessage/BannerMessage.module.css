@@ -1,0 +1,22 @@
+.bannerMsg {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:25vh;
+    background-image: url('../../../assets/curve_background.svg');
+    background-size:cover;
+    background-position:center;
+}
+
+.bannerText {
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+
+/* 
+orange e06a20
+dark 212529
+*/

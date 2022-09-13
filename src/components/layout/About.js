@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import img1 from '../../assets/about/1.png'
 import img2 from '../../assets/about/2.jpg'
 import img3 from '../../assets/about/3.jpg'
 import img4 from '../../assets/about/4.jpg'
 
 export const About = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000})
+    }, [])
+
     return (
         <section className="page-section" id="about">
             <div className="container">
@@ -12,7 +19,7 @@ export const About = () => {
                     <h2 className="section-heading text-uppercase">Sobre Nosotros</h2>
                 </div>
                 <ul className="timeline">
-                    <li>
+                    <li data-aos="fade-up">
                         <div className="timeline-image"><img className="rounded-circle img-fluid" src={img1} alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -21,7 +28,7 @@ export const About = () => {
                             <div className="timeline-body"><p className="text-muted">Somos un predio virtual con más de 15 años de experiencia en el mercado, poniendo a disposición de nuestros clientes vehículos 100% confiables a precios competitivos. Ofrecemos FINANCIAMIENTO BANCARIO, CONSIGNACIÓN o PAGO DE CONTADO.</p></div>
                         </div>
                     </li>
-                    <li className="timeline-inverted">
+                    <li className="timeline-inverted" data-aos="fade-up">
                         <div className="timeline-image"><img className="rounded-circle img-fluid" src={img4} alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -30,7 +37,7 @@ export const About = () => {
                             <div className="timeline-body"><p className="text-muted">Contamos con un stock de vehículos de alto rendimiento, semi-nuevos, de agencia e importados, modelos 2012 en adelante a los mejores precios. Trabajamos con previa cita y puedes llevar a tu mecánico de confianza para revisión.</p></div>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <div className="timeline-image"><img className="rounded-circle img-fluid" src={img2} alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -54,7 +61,7 @@ export const About = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="timeline-inverted">
+                    <li className="timeline-inverted" data-aos="fade-up">
                         <div className="timeline-image"><img className="rounded-circle img-fluid" src={img3} alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -63,7 +70,7 @@ export const About = () => {
                             <div className="timeline-body"><p className="text-muted">Recibimos tu vehículo como parte del pago total previo a una revisión correspondiente. Recibimos únicamente vehículos de agencia y algunas marcas en particular, visíta nuestras redes sociales para más información.</p></div>
                         </div>
                     </li>
-                    <li className="timeline-inverted">
+                    <li className="timeline-inverted" data-aos="fade-up">
                         <div className="timeline-image">
                             <h4>
                                 Aseguramos
