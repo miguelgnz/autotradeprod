@@ -13,7 +13,7 @@ export const About = () => {
     }, [])
 
     return (
-        <section className="page-section" id="about">
+        <section className="page-section" id="quienessomos">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Sobre Nosotros</h2>

@@ -8,7 +8,7 @@ export const Services = () => {
     }, [])
 
     return (
-        <section className="page-section" id="services">
+        <section className="page-section" id="servicios">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Nuestros Servicios</h2>

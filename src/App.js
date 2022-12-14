@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Fragment } from 'react';
 import { Masthead } from './components/layout/Masthead';
-import Navbar from './components/layout/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import { Services } from './components/layout/Services';
 import OutstandinDynamic from './components/layout/OutstandinDynamic';
 import { About } from './components/layout/About';

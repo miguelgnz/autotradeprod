@@ -13,7 +13,7 @@ export const Contact = () => {
     }, [])
 
     return (
-        <div className="py-5" id="social">
+        <div className="py-5" id="contacto">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Nuestras redes sociales</h2>
