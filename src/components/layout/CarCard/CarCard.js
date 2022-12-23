@@ -39,9 +39,7 @@ function CarCard(props) {
             key={index}
           >
             {index === current && (
-              <a>
                 <img src={slide} alt='lel' className={classes.sliderImg} />
-              </a>
             )}
           </div>
         );
