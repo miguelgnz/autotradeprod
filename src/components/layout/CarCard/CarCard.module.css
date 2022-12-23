@@ -1,0 +1,85 @@
+.mainCard {
+    /* position: relative; */
+    display: inline-block;
+    width: 332px;
+    height: 427px;
+    /* margin: 15px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: -1;
+  }
+  
+  .sliderImg {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    /* transform: scale(1.08); */
+  }
+  
+  .cardTitles {
+    height: 117px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    /* margin-top: 15px; */
+  }
+  
+  .cardTitle {
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #carModel {
+    color: #c45f00;
+    font-weight: 500;
+  }
+  
+  #carTitle {
+    font-weight: 300;
+  }
+  
+  .cardIcons {
+    display: inline-block;
+    height: 118px;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 0.5px solid gray;
+  }
+  
+  .cardIconElement {
+    display: inline-block;
+    position: relative;
+    top: 27px;
+    width: 110px;
+    height: 118px;
+  }
+  
+  .cardIconElement p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .cardIcon {
+    font-size: 2.2rem;
+  }
+  

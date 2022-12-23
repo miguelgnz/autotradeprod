@@ -20,7 +20,7 @@ const NAV_ITEMS = [
     {
       id: 3,
       title: 'Catálogo',
-      url: '#portfolio',
+      url: '#catalogo',
     },
     {
       id: 4,
@@ -59,9 +59,11 @@ const Navbar = () => {
   return (
     <nav >
         <div className={classes.navBrand}>
+            {/* eslint-disable-next-line */}
             <a href='#'>
                 <img src={navbarLogo} alt={'logo'}/>
             </a>
+            {/* eslint-disable-next-line */}
             <a className={classes.navTitle} href='#'>
                 AUTOTRADE <span id={classes.afterTitle}>GT</span>
             </a>

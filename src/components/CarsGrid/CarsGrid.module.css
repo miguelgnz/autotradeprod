@@ -1,0 +1,26 @@
+.carsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carsTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+  
+  @media (max-width: 1090px) {
+    .carsContainer {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
+  
+  @media (max-width: 730px) {
+    .carsContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+  

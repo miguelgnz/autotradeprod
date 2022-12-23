@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { Masthead } from './components/layout/Masthead';
 import Navbar from './components/Navbar/Navbar';
 import { Services } from './components/layout/Services';
-import OutstandinDynamic from './components/layout/OutstandinDynamic';
+import CarsGrid from './components/CarsGrid/CarsGrid';
 import { About } from './components/layout/About';
 import { Contact } from './components/layout/Contact';
 import { Footer } from './components/layout/Footer';
@@ -17,7 +17,7 @@ const App = () =>
     <Masthead />
     <Services />
     <BannerMessage />
-    <OutstandinDynamic />
+    <CarsGrid />
     <Contact />
     <About />
     <Footer />
