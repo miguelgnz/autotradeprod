@@ -3,8 +3,9 @@ import { GiGearStickPattern, GiGasPump } from 'react-icons/gi';
 import { FaTachometerAlt } from 'react-icons/fa';
 
 import classes from './CarCard.module.css';
+import MoreInfoBtn from './MoreInfoBtn';
 
-function CarCard(props) {
+const CarCard = (props) => {
     const [current, setCurrent] = useState(0);
     const length = props.slides.length;
 
@@ -23,8 +24,7 @@ function CarCard(props) {
         setCurrent(current === length - 1 ? 0 : current + 1);
         }, 3000);
         return () => clearInterval(interval);
-    });
-
+    },[current, length]);
 
   return (
     <div className={classes.mainCard} >
@@ -39,7 +39,7 @@ function CarCard(props) {
             key={index}
           >
             {index === current && (
-                <img src={slide} alt='lel' className={classes.sliderImg} />
+                <img src={slide} alt='slide' className={classes.sliderImg} />
             )}
           </div>
         );
@@ -52,6 +52,18 @@ function CarCard(props) {
           {props.title}
         </h3>
         <p className={classes.cardTitle}>{`Q${props.price}`}</p>
+        <MoreInfoBtn carDetails={
+            {
+              title: props.title,
+              images: props.slides,
+              year: props.year,
+              transmission: props.transmission,
+              fuel: props.fuel,
+              mileage: props.mileage,
+              price: props.price,  
+              extras: props.extras
+          }
+        }/>
       </div>
       <div className={classes.cardIcons}>
         <div className={classes.cardIconElement}>

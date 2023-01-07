@@ -7,9 +7,7 @@ import classes from './CarsGrid.module.css';
 function CarsGrid() {
   return (
     <div id='catalogo'>
-        <div className={classes.carsTitle}>
-            <h1>VEHÍCULOS DESTACADOS</h1>
-        </div>
+        <h1 className={classes.carsTitle}> VEHÍCULOS DESTACADOS </h1>
         <div className={classes.carsContainer}>
             {CarsData.map((car) => {
                 return (
@@ -22,7 +20,7 @@ function CarsGrid() {
                     transmission={car.transmission}
                     fuel={car.fuel}
                     mileage={car.mileage}
-                    onClick={() => { console.log('first') }}
+                    extras={car.extras}
                 />
                 );
             })}

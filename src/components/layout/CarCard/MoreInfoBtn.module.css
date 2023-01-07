@@ -1,0 +1,23 @@
+.moreInfoBtn {
+    background-color: #d3d3d3;
+    border: solid #b8b5b5 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+    transform: translateY(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 25px;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 85%;
+}
+
+.moreInfoBtn:hover {
+    transition : 100ms;
+    transform : translateY(-2px);
+}

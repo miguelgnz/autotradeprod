@@ -50,7 +50,8 @@ export const CarsData = [
     transmission: 'Mecánico',
     fuel: 'Diesel',
     mileage: '19',
-    price: '150,000',
+    price: '150.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
   {
     id: 'c2',
@@ -60,7 +61,8 @@ export const CarsData = [
     transmission: 'Automático',
     fuel: 'Diesel',
     mileage: '21',
-    price: '175,000',
+    price: '175.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
   {
     id: 'c3',
@@ -70,7 +72,8 @@ export const CarsData = [
     transmission: 'Mecánico',
     fuel: 'Gasolina',
     mileage: '12',
-    price: '225,000',
+    price: '225.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
   {
     id: 'c4',
@@ -80,7 +83,8 @@ export const CarsData = [
     transmission: 'Mecánico',
     fuel: 'Gasolina',
     mileage: '12',
-    price: '225,000',
+    price: '225.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
   {
     id: 'c5',
@@ -90,7 +94,8 @@ export const CarsData = [
     transmission: 'Mecánico',
     fuel: 'Gasolina',
     mileage: '12',
-    price: '225,000',
+    price: '225.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
   {
     id: 'c6',
@@ -100,6 +105,7 @@ export const CarsData = [
     transmission: 'Mecánico',
     fuel: 'Gasolina',
     mileage: '12',
-    price: '225,000',
+    price: '225.000',
+    extras: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
 ];
