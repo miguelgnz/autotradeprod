@@ -1,0 +1,30 @@
+.mainWrapper {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .title {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .brandsBanner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 4.5rem;
+  }
+  
+  .brandsBanner i {
+    margin: 2.5rem;
+    opacity: 1;
+    color: #383838;
+  }
+
+  

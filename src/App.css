@@ -109,7 +109,7 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6,
+/* h6,
 .h6,
 h5,
 .h5,
@@ -128,7 +128,7 @@ h1,
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
-}
+} */
 
 /* h1,
 .h1 {
@@ -141,7 +141,7 @@ h1,
   }
 } */
 
-h2,
+/* h2,
 .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -150,7 +150,7 @@ h2,
   .h2 {
     font-size: 2rem;
   }
-}
+} */
 
 /* h3,
 .h3 {
@@ -163,7 +163,7 @@ h2,
   }
 } */
 
-h4,
+/* h4,
 .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
@@ -182,7 +182,7 @@ h5,
 h6,
 .h6 {
   font-size: 1rem;
-}
+} */
 
 p {
   margin-top: 0;
