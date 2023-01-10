@@ -1,0 +1,62 @@
+.servicesTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 2.5rem;
+}
+
+.servicesCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+.servicesCard { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 37%;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    border: transparent;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: #c45f00;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.65);
+}
+
+.servicesIcon {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.serviceTitle {
+    margin-bottom: 5px;
+}
+
+.serviceText {
+    text-align: center;
+    margin-top: 5px;
+    color: #505050;
+    font-size: 17px;
+    width: 50%;
+}
+
+
+@media (max-width: 960px) {
+    .servicesCard { 
+        width: 100%;
+    }
+}

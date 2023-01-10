@@ -184,7 +184,7 @@ h6,
   font-size: 1rem;
 } */
 
-p {
+/* p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -202,7 +202,7 @@ address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
-}
+} */
 
 /* ol,
 ul {
@@ -11656,9 +11656,9 @@ body {
   overflow-x: hidden;
 }
 
-p {
+/* p {
   line-height: 1.75;
-}
+} */
 
 .page-section {
   padding: 0;
