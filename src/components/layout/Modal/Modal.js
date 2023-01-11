@@ -27,7 +27,7 @@ const Modal = ({isVisible, onClose, carDetails}) => {
                 <div className={classes.modal} >
                     {/* Modal Content */}
                     <h1 className={classes.modalTitle}>
-                        {`${carDetails.title} - ${carDetails.year}`}
+                        {`${carDetails.title}  ${carDetails.year}`}
                     </h1>
                     
                     <BsXLg className={classes.closeBtn} onClick={onClose}/>

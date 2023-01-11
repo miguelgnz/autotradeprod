@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Fragment } from 'react';
-import { Masthead } from './components/layout/Masthead';
 import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header'
 import Services from './components/Services/Services';
 import CarsGrid from './components/CarsGrid/CarsGrid';
 import BrandsBanner from './components/BrandsBanner/BrandsBanner';
@@ -14,7 +14,7 @@ const App = () =>
   <Fragment>
     <StickyButtons />
     <Navbar />
-    <Masthead />
+    <Header />
     <Services />
     <BrandsBanner />
     <CarsGrid />

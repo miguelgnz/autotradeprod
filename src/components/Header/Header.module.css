@@ -1,0 +1,14 @@
+.headerMainContainer {
+    margin-top: 62px;
+    background-color: #212529;
+    height: 35rem;
+}
+
+
+@media (max-width: 960px) {
+    .headerMainContainer {
+        margin-top: 62px;
+        background-color: #212529;
+        height: 25rem;
+    }
+}

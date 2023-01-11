@@ -1,0 +1,35 @@
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    height: 100%;
+  }
+
+
+  .sliderImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.titleContainer {
+    position: relative;
+    bottom: 90%;
+    text-align: center;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 25px;
+    color: #F0EAD6;
+    padding: 0 200px 0 200px;
+}
+
+@media (max-width: 960px) {
+    .titleContainer {
+        font-size: 15px;
+        padding: 0 3rem 0 3rem;
+    }
+}

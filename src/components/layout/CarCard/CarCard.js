@@ -21,7 +21,9 @@ const CarCard = (props) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
+        setCurrent((prev) => {
+          return prev + 1 === length ? 0 : prev + 1
+        });
         }, 3000);
         return () => clearInterval(interval);
     },[current, length]);
