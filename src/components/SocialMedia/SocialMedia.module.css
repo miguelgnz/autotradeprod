@@ -1,0 +1,31 @@
+.socialContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 2.5rem;
+}
+
+.socialIconWrapper {
+    display: flex;
+    height: 96px;
+    width: 96px;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+    margin: 15px 40px;
+    border-radius: 15px;
+}
+
+.socialIcon {
+    font-size: 2rem;
+}

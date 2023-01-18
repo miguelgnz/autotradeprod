@@ -25,7 +25,7 @@ const NAV_ITEMS = [
     {
       id: 4,
       title: 'Contacto',
-      url: '#contacto',
+      url: '#redessociales',
     },
     {
       id: 5,

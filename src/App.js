@@ -1,12 +1,14 @@
 import './App.css';
 import React, { Fragment } from 'react';
+
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header'
 import Services from './components/Services/Services';
-import CarsGrid from './components/CarsGrid/CarsGrid';
 import BrandsBanner from './components/BrandsBanner/BrandsBanner';
+import CarsGrid from './components/CarsGrid/CarsGrid';
+import SocialMedia from './components/SocialMedia/SocialMedia';
+
 import { About } from './components/layout/About';
-import { Contact } from './components/layout/Contact';
 import { Footer } from './components/layout/Footer';
 import { StickyButtons } from './components/StickyButtons/StickyButtons';
 
@@ -18,7 +20,7 @@ const App = () =>
     <Services />
     <BrandsBanner />
     <CarsGrid />
-    <Contact />
+    <SocialMedia />
     <About />
     <Footer />
   </Fragment>  
