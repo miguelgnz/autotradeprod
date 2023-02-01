@@ -7,9 +7,9 @@ import Services from './components/Services/Services';
 import BrandsBanner from './components/BrandsBanner/BrandsBanner';
 import CarsGrid from './components/CarsGrid/CarsGrid';
 import SocialMedia from './components/SocialMedia/SocialMedia';
+import Footer from './components/Footer/Footer';
 
 import { About } from './components/layout/About';
-import { Footer } from './components/layout/Footer';
 import { StickyButtons } from './components/StickyButtons/StickyButtons';
 
 const App = () =>

@@ -1,0 +1,74 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    margin-top: 40px;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 145px;
+    margin: 0 0 20px 20px;
+    color: whitesmoke;
+}
+
+.brandLogo {
+    position: relative;
+    top: 2%;
+    right: 45%;
+    height: 72.5px;
+}
+
+.footerTitle {
+    font-size: 15px;
+}
+
+.footerLink {
+    color: whitesmoke;
+}
+
+.contactList {
+    font-size: 12.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerListElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.footerListIcon {
+    font-size: 17px;
+    margin: 0 7px 0 0;
+}
+
+.footerSocialIcon {
+    font-size: 25px;
+    margin: 0 15px 0 0;
+    color: whitesmoke;
+}
+
+.copyrightTextContainer {
+    font-size: 12.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 55px;
+}
+
+.copyrightTextContainer p{
+    margin: 0;
+}
+
+@media (max-width: 960px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+}
