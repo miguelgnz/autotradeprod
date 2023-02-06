@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 999;
+    z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -13,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 110000;
+    z-index: 7;
     background-color: white;
     padding: 16px;
     width: 90%;
@@ -59,7 +59,7 @@
     user-select: none;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(0);
-    z-index: 11200;
+    z-index: 6;
   }
 
   .leftArrow:hover {
@@ -77,7 +77,7 @@
     user-select: none;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(0);
-    z-index: 11200;
+    z-index: 6;
   }
 
   .rightArrow:hover {

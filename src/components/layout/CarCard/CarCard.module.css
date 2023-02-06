@@ -1,9 +1,7 @@
 .mainCard {
-    /* position: relative; */
     display: inline-block;
     width: 332px;
     height: 427px;
-    /* margin: 15px; */
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
@@ -11,7 +9,6 @@
     background-color: #212529;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* z-index: -1; */
   }
   
   .sliderImg {
@@ -29,7 +26,6 @@
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
-    /* transform: scale(1.08); */
   }
   
   .cardTitles {
@@ -38,7 +34,6 @@
     font-weight: 100;
     letter-spacing: 1px;
     color: whitesmoke;
-    /* margin-top: 15px; */
   }
   
   .cardTitle {

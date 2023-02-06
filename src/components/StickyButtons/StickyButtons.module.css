@@ -2,7 +2,7 @@
     position: fixed;
     top: 85%;
     right: 2%;
-    z-index: 2000;
+    z-index: 4;
 }
 
 .stickyMediaBar a:hover{
