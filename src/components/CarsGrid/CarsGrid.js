@@ -21,6 +21,7 @@ function CarsGrid() {
                     fuel={car.fuel}
                     mileage={car.mileage}
                     extras={car.extras}
+                    motor={car.motor}
                 />
                 );
             })}

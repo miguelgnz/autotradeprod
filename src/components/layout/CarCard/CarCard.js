@@ -53,7 +53,7 @@ const CarCard = (props) => {
         <h3 className={classes.cardTitle} id={classes.carTitle}>
           {props.title}
         </h3>
-        <p className={classes.cardTitle}>{`Q${props.price}`}</p>
+        {/* <p className={classes.cardTitle}>{`Q${props.price}`}</p> */}
         <MoreInfoBtn carDetails={
             {
               title: props.title,
@@ -63,6 +63,7 @@ const CarCard = (props) => {
               fuel: props.fuel,
               mileage: props.mileage,
               price: props.price,  
+              motor: props.motor,
               extras: props.extras
           }
         }/>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill, BsXLg } from 'react-icons/bs';
-import { GiGearStickPattern, GiGasPump } from 'react-icons/gi';
-import { FaTachometerAlt, FaMoneyBillAlt } from 'react-icons/fa';
+import { GiGearStickPattern, GiGasPump, GiCarWheel } from 'react-icons/gi';
+import { FaTachometerAlt } from 'react-icons/fa';
 
 import classes from './Modal.module.css'
 
@@ -65,11 +65,11 @@ const Modal = ({isVisible, onClose, carDetails}) => {
                                 </li>
                                 <li className={classes.specItem}>
                                     <FaTachometerAlt className={classes.specIcon}/>                                  
-                                    <span className={classes.specDetail}>Millas/Kilometros: {`${carDetails.mileage}.000`}</span>
+                                    <span className={classes.specDetail}>Kilometros: {`${carDetails.mileage}.000`}</span>
                                 </li>
                                 <li className={classes.specItem}>
-                                    <FaMoneyBillAlt className={classes.specIcon}/>
-                                    <span className={classes.specDetail}>Precio: {carDetails.price}</span>                                
+                                    <GiCarWheel className={classes.specIcon}/>
+                                    <span className={classes.specDetail}>Motor: {carDetails.motor}</span>                                
                                 </li>
                                 {/* <li className={classes.specItem}>
                                     <FaPlus className={classes.specIcon}/>
