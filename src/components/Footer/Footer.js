@@ -65,7 +65,17 @@ const Footer = () => {
                 </div>
                 <div className={classes.copyrightTextContainer}>
                     <p className={classes.bottomText}>Copyright &copy; Auto Trade GT 2021</p>
-                    <p className={classes.bottomText}>Sitio Web desarrollado por Miguel Gnz</p>
+                    <p className={classes.bottomText}>
+                        Sitio Web desarrollado por{' '} 
+                        <a 
+                            href='https://www.linkedin.com/in/miguel-gnz/' 
+                            target="_blank"
+                            rel='noreferrer'
+                            style={{color: 'aliceblue'}}
+                        >
+                            Miguel Gnz
+                        </a>
+                    </p>
                 </div>
             </div>
     </div>
