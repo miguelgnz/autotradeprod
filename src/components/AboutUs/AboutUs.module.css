@@ -1,0 +1,104 @@
+.aboutTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 2.5rem;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+}
+
+.panelReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 450px;
+}
+
+.panelImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url(../../assets/curve_background.svg);
+}
+
+.imageWrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.imageElement {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.panelInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+.panelTitle {
+    padding-left: 100px;
+    margin-bottom: 1px;
+}
+
+.panelParagraph {
+    font-size: 17.5px;
+    padding: 0 100px 10px 100px;
+    margin-top: 1px;
+}
+
+.panelList {
+    font-size: 17.5px;
+    padding: 5px 100px 10px 110px;
+    margin-top: 1px;
+    list-style:square
+}
+
+@media (max-width: 960px) {
+    .panel {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panelReverse {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panelImage {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .panelInfo {
+        width: 100%;
+    }
+
+    .panelTitle {
+        padding-left: 50px;
+        margin-bottom: 1px;
+    }
+
+    .panelParagraph {
+        font-size: 17.5px;
+        padding: 0 50px 10px 50px;
+        margin-top: 1px;
+    }
+
+    .panelList {
+        padding: 5px 100px 10px 60px;
+    }
+}

@@ -7,9 +7,9 @@ import Services from './components/Services/Services';
 import BrandsBanner from './components/BrandsBanner/BrandsBanner';
 import CarsGrid from './components/CarsGrid/CarsGrid';
 import SocialMedia from './components/SocialMedia/SocialMedia';
+import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 
-import { About } from './components/layout/About';
 import { StickyButtons } from './components/StickyButtons/StickyButtons';
 
 const App = () =>
@@ -21,7 +21,7 @@ const App = () =>
     <BrandsBanner />
     <CarsGrid />
     <SocialMedia />
-    <About />
+    <AboutUs />
     <Footer />
   </Fragment>  
 
