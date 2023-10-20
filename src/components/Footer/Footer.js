@@ -68,7 +68,7 @@ const Footer = () => {
                     <p className={classes.bottomText}>
                         Sitio Web desarrollado por{' '} 
                         <a 
-                            href='https://www.linkedin.com/in/miguel-gnz/' 
+                            href='https://www.miguelgnz.com' 
                             target="_blank"
                             rel='noreferrer'
                             style={{color: 'aliceblue'}}
