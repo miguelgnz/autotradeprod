@@ -65,7 +65,7 @@ const Navbar = () => {
             </a>
             {/* eslint-disable-next-line */}
             <a className={classes.navTitle} href='#'>
-                AUTOTRADE <span id={classes.afterTitle}>GT</span>
+                VALUE <span id={classes.afterTitle}>MOTORS</span>
             </a>
         </div>
         <div className={classes.menuIcon} onClick={handleClick}>

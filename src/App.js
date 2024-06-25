@@ -6,7 +6,6 @@ import Header from './components/Header/Header'
 import Services from './components/Services/Services';
 import BrandsBanner from './components/BrandsBanner/BrandsBanner';
 import CarsGrid from './components/CarsGrid/CarsGrid';
-import BannerMessage from './components/BannerMessage/BannerMessage';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
@@ -21,7 +20,6 @@ const App = () =>
     <Services />
     <BrandsBanner />
     <CarsGrid />
-    <BannerMessage />
     <SocialMedia />
     <AboutUs />
     <Footer />
