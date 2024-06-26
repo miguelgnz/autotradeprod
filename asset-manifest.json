@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/autotradeprod/static/css/main.7aad4329.chunk.css",
+    "main.js": "/autotradeprod/static/js/main.860fe509.chunk.js",
+    "main.js.map": "/autotradeprod/static/js/main.860fe509.chunk.js.map",
+    "runtime-main.js": "/autotradeprod/static/js/runtime-main.f7d796b4.js",
+    "runtime-main.js.map": "/autotradeprod/static/js/runtime-main.f7d796b4.js.map",
+    "static/css/2.14ab2bc7.chunk.css": "/autotradeprod/static/css/2.14ab2bc7.chunk.css",
+    "static/js/2.66dbf5c5.chunk.js": "/autotradeprod/static/js/2.66dbf5c5.chunk.js",
+    "static/js/2.66dbf5c5.chunk.js.map": "/autotradeprod/static/js/2.66dbf5c5.chunk.js.map",
+    "index.html": "/autotradeprod/index.html",
+    "static/css/2.14ab2bc7.chunk.css.map": "/autotradeprod/static/css/2.14ab2bc7.chunk.css.map",
+    "static/css/main.7aad4329.chunk.css.map": "/autotradeprod/static/css/main.7aad4329.chunk.css.map",
+    "static/js/2.66dbf5c5.chunk.js.LICENSE.txt": "/autotradeprod/static/js/2.66dbf5c5.chunk.js.LICENSE.txt",
+    "static/media/1_1.fdb6a413.jpg": "/autotradeprod/static/media/1_1.fdb6a413.jpg",
+    "static/media/2_1.8de8c940.jpg": "/autotradeprod/static/media/2_1.8de8c940.jpg",
+    "static/media/3_1.ddf73c40.jpg": "/autotradeprod/static/media/3_1.ddf73c40.jpg",
+    "static/media/4_1.5558ca81.jpg": "/autotradeprod/static/media/4_1.5558ca81.jpg",
+    "static/media/5_1.a02893a3.jpg": "/autotradeprod/static/media/5_1.a02893a3.jpg",
+    "static/media/6_1.ebe534bf.jpg": "/autotradeprod/static/media/6_1.ebe534bf.jpg",
+    "static/media/agreement.2948cd5c.jpeg": "/autotradeprod/static/media/agreement.2948cd5c.jpeg",
+    "static/media/style.css": "/autotradeprod/static/media/car-makes-icons.da6932fc.woff",
+    "static/media/carkeys.1efda762.jpg": "/autotradeprod/static/media/carkeys.1efda762.jpg",
+    "static/media/AboutUs.module.css": "/autotradeprod/static/media/curve_background.3ad75e99.svg",
+    "static/media/hilux1.ea49681c.jpeg": "/autotradeprod/static/media/hilux1.ea49681c.jpeg",
+    "static/media/interior.b1a8575c.jpeg": "/autotradeprod/static/media/interior.b1a8575c.jpeg",
+    "static/media/mitsubishi.099a743f.jpeg": "/autotradeprod/static/media/mitsubishi.099a743f.jpeg",
+    "static/media/navbar-logo.261d10c3.svg": "/autotradeprod/static/media/navbar-logo.261d10c3.svg",
+    "static/media/toyota.6db5e1de.jpeg": "/autotradeprod/static/media/toyota.6db5e1de.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7d796b4.js",
+    "static/css/2.14ab2bc7.chunk.css",
+    "static/js/2.66dbf5c5.chunk.js",
+    "static/css/main.7aad4329.chunk.css",
+    "static/js/main.860fe509.chunk.js"
+  ]
+}
